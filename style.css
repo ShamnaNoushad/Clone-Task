@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Nunito", sans-serif;
+}
+
+/* --------------------------------------------------------------------- */
+.header {
+    background-color: #eadfea;
+    height: 172px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 46px;
+}
+
+.icon {
+    margin-top: 4px;
+    margin-left: 60px;
+}
+
+.email {
+    width: 137px;
+    height: 16px;
+    margin-top: 18px;
+    margin-left: 0px;
+    line-height: 16.37px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 40px 13px 40px;
+    gap: 10px;
+    background-color: #A64CA6;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    height: auto;
+    min-height: 59px;
+    width: 190px;
+}
+
+/* -------------------------Nav End-------------------- */
+
+.user-profile {
+    display: flex;
+    flex-direction: row;
+    background-color: #A64CA680;
+    border-radius: 10px;
+    height: 81;
+    width: 452px;
+}
+
+/* ------------------------ */
+.sidebar {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    margin-top: 34px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sidebar ul li a {
+    color: #707070;
+    text-decoration: none;
+    display: block;
+}
+.sidebar ul li :hover{
+    background-color: #A64CA6;
+    box-shadow: 0px 0px 5px 0px #0000000D;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: #FFF;
+}
+#logout{
+    background-color: #A64CA6;
+    color: #FFF;
+    box-shadow: 0px 0px 5px 0px #0000000D;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.icon {
+    color: #800080;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+
+/* ---------settings----- */
+.icons {
+    color: #800080;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+.arrows {
+    margin-left: 120px;
+}
+.set{
+    margin-left: 20px;
+}
+/* ---------settings----- */
+/* -------contact support----- */
+.con{
+        color: #800080;
+        vertical-align: middle;
+        margin-left: 60px;
+}
+.contct{
+    margin-left: 21px;
+}
+.cntarr{
+    margin-left: 60px;
+}
+/* -------contact support----- */
+/* -----------about us------ */
+.abt{
+    color: #800080;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+.cabt{
+    margin-left: 20px;
+}
+.arrabt{
+    margin-left: 110px;
+}
+/* -----------about us------ */
+/*---- privacy policy---------- */
+.ipr{
+    color: #800080;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+.cpr{
+    margin-left: 21px;
+}
+.apr{
+    margin-left: 80px;
+}
+/*---- privacy policy---------- */
+/*---- privacy policy---------- */
+.idel{
+    color: #800080;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+.cdel{
+    margin-left: 21px;
+}
+.adel{
+    margin-left: 68px;
+}
+/*---- privacy policy---------- */
+/*---- Logout---------- */
+.iout{
+    color: #ffffff;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+.cout{
+    margin-left: 10px;
+    color: #FFF;
+}
+.aout{
+    margin-left: 130px;
+    color: #FFF;
+}
+/*---- Logout---------- */
+.content {
+    color: #707070;
+    vertical-align: middle;
+}
+
+.arrow {
+    margin-left: 100px;
+}
+
+.contentt {
+    margin-left: 450px;
+    padding: 20px;
+    box-shadow: 1px 1px 9px 0px #0000001A;
+    margin-top: 20px;
+    width: 956px;
+    height: auto;
+    max-height: 776px;
+}
